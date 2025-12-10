@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #000000;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: violet;
+    text-align: center;
+}
+
+h1 {
+    color: violet;
+    background-color: wheat;
+    border: 2px solid #333;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main {
+    margin: 2px auto;
+    padding: 2px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    color: violet;
+}
+button {
+    font-size: 18px;
+    padding: 12px 30px;
+    background-color: #333;
+    color: violet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+    width: auto;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.btn {
+    font-size: 18px;
+
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: violet;
+}
+
+.form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: #555;
+}
